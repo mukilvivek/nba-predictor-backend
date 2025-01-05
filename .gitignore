@@ -20,6 +20,11 @@ var/
 .installed.cfg
 *.egg
 
+# Keep ML model files
+!*.pkl
+!model_info.json
+!data/
+
 # Environment variables
 .env
 
